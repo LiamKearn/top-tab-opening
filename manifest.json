@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Top tab opening",
+  "version": "1.0",
+  "description": "Ensure that tabs always open in the top of the vertical tab bar.",
+  "background": {
+      "scripts": ["main.js"],
+      "persistent": false,
+      "type": "module"
+  }
+}
+
